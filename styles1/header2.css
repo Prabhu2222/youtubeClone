@@ -1,0 +1,43 @@
+.header2{
+    /* background-color: blue; */
+    background-color: white;
+    display:flex;
+    overflow-x:auto;
+  /* this is a fixed element */
+  /* when side bar is extended left will be 230px */
+    /* padding-left:221px;   */
+    /* when side bar is open left will be 100px; */
+
+    position:fixed;
+    top:55px;
+    left:100px;
+    right:0;
+
+    z-index:20;
+
+    transition:left .5s;
+
+    /* height:40px */
+
+}
+.header2::-webkit-scrollbar{
+
+}
+.category{
+    padding:5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    /* border:1px solid grey; */
+    background-color:lightgray;
+
+    margin:5px;
+    border-radius: 6px;
+
+    white-space: nowrap;
+    cursor:pointer;
+    transition:all .4s;
+
+}
+.category:hover{
+  background-color: grey;
+}

@@ -1,0 +1,128 @@
+.header-container-div{
+    /* background-color: grey; */
+    background-color:white;
+
+    display: flex;
+    height:55px;
+    display:flex;
+    justify-content: space-between;
+
+
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:200;
+    
+  
+}
+/* left section css */
+.left-section-div{
+     /* background-color: lightpink; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+ 
+}
+.hamburger-menu{
+    height:25px;
+    margin-right: 30px;
+     margin-left:30px;
+
+}
+.youtube-logo{
+    height:22px;
+
+}
+/* middle section css */
+.middle-section-div{
+    /* background-color: lightblue; */
+    padding-left:70px;
+    padding-right: 10px;
+    flex:1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.search-bar{
+    flex:1;
+   
+    height:45px;
+    padding-left:20px;
+    padding-top:4px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 28px;
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.2);
+
+    max-width:700px;
+    width:0;
+  
+}
+.search-bar:focus{
+outline: none;
+}
+.search-bar::placeholder{
+    font-family:'Roboto' Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.search-icon-button{
+    height:45px;
+    width: 70px;
+    border:1px solid gray;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    margin-left: -1px;
+    margin-right:20px;
+    margin-left: -46px;
+    padding-right:6px;
+    cursor:pointer;          
+}
+.search-icon-button:hover{
+    box-shadow: 0px 0px 6px grey;
+}
+.search-icon-button:active{
+    box-shadow: 0px 0px 6px rgba(128, 128, 128, 0.3);
+}
+.search-icon-img{
+    height:26px;
+    margin-top:4px;
+
+}
+.voice-search-icon-button{
+    height:40px;
+    width:40px;
+    border-radius: 28px;
+    border:none;
+}
+.voice-search-icon-img{
+    height:28px;
+    margin-top:4px;
+}
+/* right section div */
+.right-section-div{
+   /* background-color: turquoise; */
+   width: 180px;
+   display: flex;
+   margin-right:30px;
+   align-items: center;
+   justify-content: space-around;
+
+   flex-shrink: 0;
+   
+}
+.upload-icon{
+    height:28px;
+}
+.youtube-apps-icon{
+    height:26px;
+}
+.notification-icon{
+    height:28px;
+}
+.current-user-profile-pic{
+    height:38px;
+    border-radius:25px;
+}
